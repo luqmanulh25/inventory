@@ -1,0 +1,35 @@
+GET http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+
+###
+GET http://localhost:8000/api/user/1
+Content-Type: application/json
+Accept: application/json
+
+###
+POST http://localhost:8000/api/user
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name" : "Admin",
+    "email" : "admin@mail.com",
+    "password" : "admin123"
+}
+
+###
+PUT http://localhost:8000/api/department/1
+Content-Type: application/json
+Accept: application/json
+
+{
+    "nama" : "Sales"
+  
+}
+
+###
+DELETE http://localhost:8000/api/department/1
+Content-Type: application/json
+Accept: application/json
